@@ -1,0 +1,17 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+
+  # Allow manual triggering:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build all apps
+        run: make build
