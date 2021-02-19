@@ -1,4 +1,4 @@
-APPS := $$(find shiny-apps -type d -depth 1)
+APPS := $$(find shiny-apps -mindepth 1 -maxdepth 1 -type d)
 HEAD := $$(git rev-parse HEAD)
 
 .PHONY: build
