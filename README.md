@@ -1,5 +1,5 @@
 # r-shiny-poc
-A proof-of-concept repo for building containerised R Shiny apps
+A proof-of-concept repo for building containerised R Shiny apps. Also see the accompanying [infrastructure-as-code](https://github.com/joshpencheon/r-shiny-infrastructure-poc) repository.
 
 ## Building new images
 
