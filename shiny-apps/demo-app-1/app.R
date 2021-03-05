@@ -68,4 +68,7 @@ server <- function(input, output) {
   })
 
 }
+
+options(shiny.trace = TRUE)
+
 shinyApp(ui, server)
