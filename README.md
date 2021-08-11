@@ -18,5 +18,5 @@ $ make push
 ## Orchestrated deployment
 
 The built images can then be deployed in a configuration-driver manner.
-See the accompanying "infrastructure repository":https://github.com/joshpencheon/r-shiny-infrastructure-poc for details; specifically, the `deployments.tf` file.
+See the accompanying [infrastructure repository](https://github.com/joshpencheon/r-shiny-infrastructure-poc) for details; specifically, the `deployments.tf` file.
 
